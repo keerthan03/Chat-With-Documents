@@ -1,6 +1,6 @@
-!pip install PyPDF2
-!pip install -U langchain-community
-!pip install FAISS
+pip install PyPDF2
+pip install -U langchain-community
+pip install FAISS
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
